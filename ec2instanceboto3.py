@@ -30,7 +30,7 @@ instances = ec2_resource.create_instances(
             'Tags': [ 
                 {
                     'Key': 'Name',
-                    'Value':'MyJenkinsInstanceServer',
+                    'Value':'MyJenkinsPythonServer',
                 },
                 {
                     'Key': 'Env',
